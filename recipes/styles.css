@@ -4,11 +4,19 @@ body {
     padding: 12px;
 }
 
+.home-link {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: aqua;
+    padding: 6px 12px;
+}
+
 .card {
     background-color: rgb(255, 235, 254);
     margin: 12px auto;
     padding: 8px 24px;
     max-width: 400px;
+    font-size: 12px;
 }
 
 .title {
@@ -20,4 +28,19 @@ body {
     max-width:fit-content;
     height:auto;
     width: 400px;
+}
+
+.description {
+    background-color: azure;
+    padding: 12px 24px;
+}
+
+.ingredient-list {
+    background-color: azure;
+    padding: 12px 32px;
+}
+
+.step-list {
+    background-color: azure;
+    padding: 12px 32px;
 }
